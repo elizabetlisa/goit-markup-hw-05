@@ -216,14 +216,20 @@ img {
 }
 
 .section-button {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    max-width: 1440px;
-    background-position: center;
-}
+    padding: 188px 0;
+        height: 600px;
+        margin-right: auto;
+        margin-left: auto;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-color: #313131;
+        max-width: 1440px;
+        max-height: 600px;
+    }
 
 .section-button-title {
     color: #2e2f42;
